@@ -1,0 +1,53 @@
+
+.body {
+	background-color: #e0e0e0;
+}
+.container {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#animalButton {
+   border-top: 1px solid #0084d6;
+   background: #0585da;
+   padding: 7px 25px;
+   border-radius: 13px;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   color: white;
+   font-size: 19px;
+   font-family: Georgia, serif;
+   margin: 5px;
+   }
+#animalbutton:hover {
+   background: #red;
+   color: #white;
+   }
+#addAnimal {
+	border-top: 1px solid #0084d6;
+   background: #0585da;
+   padding: 7px 25px;
+   border-radius: 13px;
+   box-shadow: rgba(0,0,0,1) 0 1px 0;
+   color: white;
+   font-size: 19px;
+   font-family: Georgia, serif;
+   margin: 5px;
+}
+label{ 
+  color: #0585da;
+
+ }
+/*.animalbutton:active {
+   border-top-color: #3c6b8a;
+   background: #3c6b8a;
+   }*/
+.gify{
+   	float: left;
+   	margin: 10px;
+   }
+p {
+   	float: left;
+   }
+form {
+	margin-left: 75%;
+	float: right;
+   }

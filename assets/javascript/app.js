@@ -78,13 +78,15 @@
   }
  }
 
- $("#addAnimal").on("click", function(event) {
+ $("#addAnimal").on("click", function(event) {  
   event.preventDefault();
+
 
   var animal = $("#animalInput").val().trim();
   console.log(animal);
   topics.push(animal);
   renderButtons();
+  $("#animalInput").val("");
  });
 
 $(document).on("click", "#animalButton", displayAnimalGif);
